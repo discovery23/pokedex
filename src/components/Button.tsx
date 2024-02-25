@@ -1,13 +1,8 @@
-import './button.css';
-
-interface ButtonProps{
-    color?: string;
-    label:string;
-    onClick:()=>void;
-}
-
-export default function Button(props:ButtonProps){
+export default function Button() {
     return (
-        <button className={`btn ${!props.color?'btn-blue':''} ${props.color=='green'?'btn-green':''} ${props.color=='red'?'btn-red':''}`} onClick={props.onClick}>{props.label}</button>
-    )
-}
+      <button className="mb-4 relative z-0 h-12 rounded-full bg-blue-500 px-6 text-neutral-50 after:absolute after:left-0 after:top-0 after:-z-10 after:h-full after:w-full after:rounded-full after:bg-blue-500 active:scale-95 active:transition active:after:scale-x-125 active:after:scale-y-150 active:after:opacity-0 active:after:transition active:after:duration-500">
+        Click me
+      </button>
+    );
+  };
+  
