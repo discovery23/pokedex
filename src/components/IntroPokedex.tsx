@@ -19,7 +19,7 @@ export default function IntroPokedex() {
             <div className="flex flex-wrap">
                 <div className="w-full sm:w-1/2 px-4 lg:order-last md:order-last">
                     <div className="bg-white-200 p-5">
-                        <a href="#" className="flex justify-center items-center">
+                        <a href="#!" className="flex justify-center items-center">
                             <img
                             className="rounded-t-lg" style={{ width: '250px', height: '250px' }}
                             src="https://pm1.aminoapps.com/6159/3ef6c4a73a478bb9c7de0bcd6bab6c085bbc2923_hq.jpg"
