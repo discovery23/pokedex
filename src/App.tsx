@@ -15,10 +15,9 @@ function App() {
   return (
     <div className="App">
       <p>Hello World {contador}</p>
-      <Button label="Incrementar" onClick={()=>aumentar()}></Button>
-      <Button label="Incrementar 2" color='green' onClick={()=>aumentar()}></Button>
-      <Button label="Incrementar 2" color='red' onClick={()=>aumentar()}></Button>
+
       <Card></Card>
+      <Button></Button>
     </div>
   );
 }
