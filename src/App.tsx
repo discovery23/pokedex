@@ -2,22 +2,19 @@ import React from 'react';
 import './App.css';
 import Button from './components/Button';
 import Card from './components/Card';
+import IntroPokedex from './components/IntroPokedex';
+import Profile from './components/Profile';
 import './index.css';
 
 function App() {
-  const [contador, setContador] = React.useState(1);
-
-  function aumentar(){
-    console.log("Entra a la función aumentar");
-    setContador(contador + 1);
-  }
-
   return (
     <div className="App">
-      <p>Hello World {contador}</p>
+      <p>Hello World</p>
 
       <Card></Card>
       <Button></Button>
+      <IntroPokedex></IntroPokedex>
+      <Profile></Profile>
     </div>
   );
 }

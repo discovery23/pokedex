@@ -7,7 +7,6 @@ import {
     TETabsContent,
     TETabsItem,
     TETabsPane,
-    TERipple,
 } from "tw-elements-react";
 
 export default function IntroPokedex() {
