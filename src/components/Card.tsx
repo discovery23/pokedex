@@ -7,7 +7,7 @@ export default function Card() {
         <div className="w-full h-80 bg-gradient-to-br from-orange-400 to-red-500 rounded-t-3xl overflow-hidden relative shadow-inner">
           <img
             className="w-full h-full object-cover opacity-80 transition duration-300 hover:opacity-100"
-            src="/img9.jpg"
+            src="/img10.jpg"
             alt=""
           />
            <div className="absolute inset-0 flex justify-center items-center">
